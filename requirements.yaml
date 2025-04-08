@@ -1,0 +1,19 @@
+name: protoCore
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - tensorflow=2.12
+  - numpy=1.24
+  - pandas
+  - scikit-learn
+  - notebook
+  - keras-tuner
+  - scikit-optimize
+  - matplotlib=3.7.2
+  - seaborn
+  - imbalanced-learn
+  - pip:
+    - tensorflow-metal
+    - shap
