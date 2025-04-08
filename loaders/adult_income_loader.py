@@ -2,10 +2,8 @@ import os
 import pandas as pd
 import tensorflow as tf
 import numpy as np
-from numpy.f2py.auxfuncs import throw_error
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import  OneHotEncoder, MinMaxScaler
-from tensorflow.python.ops.gen_logging_ops import Print
 
 from .base_data_loader import BaseDataLoader
 

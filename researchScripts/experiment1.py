@@ -2,6 +2,9 @@
 # coding: utf-8
 
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,7 +16,7 @@ import shap
 
 from sklearn.metrics import classification_report, confusion_matrix
 
-from loaders import AdultIncomeDataLoader
+from loaders import *
 from model import TrainingConfig, ModelConfig  # Import Configs
 from model.proto import ProtoModel
 

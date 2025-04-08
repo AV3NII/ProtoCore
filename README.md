@@ -25,7 +25,7 @@ The experiments use the Adult Income dataset to demonstrate how prototype-based 
 2. Create and activate the conda environment:
 ```bash
 
-conda env create -f environment.yaml
+conda env create -f  requirements.yaml
 conda activate protoCore
 ```
 
